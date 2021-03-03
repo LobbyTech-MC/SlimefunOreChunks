@@ -20,7 +20,7 @@ public class OreChunk extends SlimefunItem {
     private final ItemStack output;
 
     public OreChunk(OreChunks plugin, Category category, String id, String name, int amplifier, String texture, ItemStack output) {
-        this(plugin, category, id, name, "&7Use an Ore Crusher to turn this into Dust", amplifier, texture, RecipeType.ORE_CRUSHER, output);
+        this(plugin, category, id, name, "&7使用洗矿机可将其转化为成矿粉", amplifier, texture, RecipeType.ORE_CRUSHER, output);
     }
 
     public OreChunk(OreChunks plugin, Category category, String id, String name, String lore, int amplifier, String texture, RecipeType machine, ItemStack output) {
